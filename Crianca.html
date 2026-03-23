@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro da Criança</title>
+
+<style>
+body{
+font-family: Arial;
+background:#f2f2f2;
+display:flex;
+justify-content:center;
+margin-top:50px;
+}
+
+table{
+background:white;
+padding:20px;
+border-collapse: collapse;
+border-radius:8px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+td{
+padding:10px;
+}
+
+input{
+padding:6px;
+width:200px;
+}
+
+button{
+padding:8px;
+width:100%;
+}
+</style>
+
+</head>
+
+<body>
+
+<table>
+
+<tr>
+<td>Nome da criança:</td>
+<td><input id="crianca" placeholder="Digite o nome"></td>
+</tr>
+
+<tr>
+<td>Idade:</td>
+<td><input id="idade" type="number" placeholder="Digite a idade"></td>
+</tr>
+
+<tr>
+<td>Escola:</td>
+<td><input id="escola" placeholder="Nome da escola"></td>
+</tr>
+
+<tr>
+<td colspan="2">
+<button onclick="finalizar()">Finalizar cadastro</button>
+</td>
+</tr>
+
+</table>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
+
+
